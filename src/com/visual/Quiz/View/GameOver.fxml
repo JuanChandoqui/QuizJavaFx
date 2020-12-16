@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.visual.Quiz.View.GameOverController">
+   <children>
+      <AnchorPane fx:id="anchorPane" prefHeight="200.0" prefWidth="350.0">
+         <children>
+            <Label layoutX="114.0" layoutY="27.0" prefWidth="123.0" text="QUIZ TERMINADO">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="35.0" layoutY="92.0" text="Puntuación final: " />
+            <Label layoutX="57.0" layoutY="137.0" text="Aciertos: " />
+            <Button fx:id="botonSalir" layoutX="237.0" layoutY="154.0" mnemonicParsing="false" onMouseClicked="#botonSalirOnMouseClicked" prefHeight="29.0" prefWidth="83.0" style="-fx-background-color: #66CC00;" text="Salir" />
+            <Label fx:id="puntuacion" layoutX="139.0" layoutY="92.0" prefHeight="17.0" prefWidth="18.0" />
+            <Label fx:id="aciertos" layoutX="108.0" layoutY="137.0" prefHeight="17.0" prefWidth="18.0" />
+            <Label layoutX="116.0" layoutY="56.0" text="Enhorabuena jugador!">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
